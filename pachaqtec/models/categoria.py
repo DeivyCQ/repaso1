@@ -10,5 +10,5 @@ class Categoria(models.Model):
 
     class Meta:
         verbose_name = 'Categoría'
-        verbose_name_plural = 'categorías'
+        verbose_name_plural = 'Categorías'
         app_label = 'pachaqtec'
