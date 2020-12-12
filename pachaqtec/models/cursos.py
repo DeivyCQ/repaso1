@@ -1,5 +1,5 @@
 from django.db import models
-from models.categoria import Categoria
+from .categoria import Categoria
 
 class Cursos(models.Model):
     id = models.AutoField(primary_key=True)
