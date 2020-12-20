@@ -10,6 +10,7 @@ class Cursos(models.Model):
     dirigido_a = models.TextField(null=True, blank=True)
     otorga = models.TextField()
     fecha_inicio = models.DateField()
+    slug = models.SlugField()
     categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
     cupon = models.ManyToManyField(Cupon, limit_choices_to={'por_curso':True})
 
