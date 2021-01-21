@@ -2,3 +2,10 @@ from .categoria import Categoria
 from .cupon import Cupon
 from .cursos import Cursos
 from .planes import Planes
+from .alumnos import Alumnos
+from .unidades import Unidades
+from .semanas import Semanas
+from .horarios import Horarios
+from .imagenes import Imagenes
+from .postulantes import Postulantes
+from .pedidos import Pedidos

@@ -13,4 +13,4 @@ class Planes(models.Model):
     class Meta:
         verbose_name = 'Plan'
         verbose_name_plural = 'Planes'
-        app_label = 'pachaqteq'
+        app_label = 'pachaqtec'
