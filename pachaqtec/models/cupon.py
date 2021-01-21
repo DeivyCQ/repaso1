@@ -12,7 +12,7 @@ class Cupon(models.Model):
     por_curso = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.codigo_cupon
+        return f"{self.id}, {self.codigo_cupon}"
 
     class Meta:
         verbose_name = 'Cupón'
